@@ -33,16 +33,15 @@ public class ClassMain {
             String name;
             A age;
         }
-        Student3<String> jun3 = new Student3<String>();
+
+        Student3<String> jun3 = new Student3<>();
         Student3<Integer> jun33 = new Student3<>();
         jun3.age = "33";
         jun33.age = 33;
 
         int num2 = num;
         Student3<?> jun333 = jun3;    // 자료형 아무거나 가능 (제네릭 와일드카드)
-
-
-
     }
 
 }
+
